@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc
+
+}
+
+
+/* Home Section */
+
+#home {
+background-image: url('background.jpg');
+background-size: cover;
+background-position: center;
+color: #fff;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+Z
+}
+
+#home h1 {
+font-size: 3rem;
+margin-bottom: 1rem;
+}
+
+#home p {
+font-size: 1.5rem;
+margin-bottom: 2rem;
+}
+
+/* Products Section */
+
+#products {
+background-color: #f9f9f9;
+padding: 2rem;
+}
+
+#products h2 {
+text-align: center;
+margin-bottom: 2rem;
+}
+
+#products ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+list-style: none;
+}
+
+#products li {
+background-color: #fff;
+border-radius: 0.5rem;
+box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+margin: 1rem;
+padding: 1rem;
+text-align: center;
+width: 30%;
+min-width: 300px;
+}
+
+#products img {
+max-width: 100%;
+margin-bottom: 1rem;
+}
+
+#products h3 {
+font-size: 1.5rem;
+margin-bottom: 0.5rem;
+}
+
+#products p {
+font-size: 1.2rem;
+font-weight: bold;
+margin-bottom: 0.5rem;
+}
+
+/* Contact Section */
+
+#contact {
+background-color: #f9f9f9;
+padding: 2rem;
+}
+
+#contact h2 {
+text-align: center;
+margin-bottom: 2rem;
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+label {
+margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+padding: 0.5rem;
+margin-bottom: 1rem;
+border: none;
+border-radius: 0.5rem;
+}
+
+button[type="submit"] {
+background-color: #333;
+color: #fff;
+padding: 0.5rem 1rem;
+border: none;
+border-radius: 0.5rem;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+background-color: #ffcc00;
+}
+
+/* Footer Section */
+
+footer {
+background-color: #333;
+color: #fff;
+padding: 1rem;
+text-align: center;
+}
+
+footer ul {
+display: flex;
+justify-content: center;
+list-style: none;
+}
+
+footer li {
+margin: 0 1rem;
+}
+
+footer a {
+color: #fff;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+footer a:hover {
+color: #ffcc00;
